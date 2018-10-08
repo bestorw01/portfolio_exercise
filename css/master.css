@@ -1,0 +1,161 @@
+/* @import "Nunito"; */
+/* @import url('https://fonts.googleapis.com/css?family=Nunito'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red !important; */
+}
+
+body {
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  line-height: 2.6em;
+  font-size: 16px;
+  font-weight: 100;
+  color: #292929;
+}
+
+#containter {
+  /* width: 769px; */
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*a links*/
+a {
+  text-decoration: none;
+  color: #292929;
+  font-size: 1.1rem;
+  padding:
+}
+
+a:hover {
+  /* background-color: #a9a9a9; */
+}
+
+.menu_bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-flow: row wrap;
+    /* font-weight: bold; */
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav_bar{
+  margin: 0;
+}
+
+.nav_bar li {
+  display: inline-flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.social_icon > a {
+  display: block;
+  justify-content: space-around;
+  padding:  5px 15px;
+  border: 1px solid #292929;
+  border-radius: 10px;
+}
+
+main {
+    background-color: #292929;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about_section{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_image {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main_image img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 2px 3px 0px #000000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text_area {
+  text-align: center;
+}
+
+.text_area h1 {
+  font-size: 50px;
+  padding: 10px;
+  font-weight: 100;
+}
+
+.text_area p {
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+/* section */
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.my_interest{
+    display: flex;
+    flex-direction: column;
+}
+
+.my_interest h3 {
+    font-weight: 500;
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.my_interest p {
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+.interest_list {
+    text-align: center;
+    padding-top: 15px;
+}
+.interest_list ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.interest_list li {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  background-color: #202020;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+  font-size: 10px;
+}

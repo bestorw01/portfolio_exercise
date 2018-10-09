@@ -19,8 +19,8 @@ body {
 }
 
 #containter {
-  /* width: 769px; */
-  width: 70%;
+  max-width: 960px;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -108,6 +108,7 @@ main {
 .text_area p {
   font-size: 1.3em;
   font-weight: 100;
+  text-align: justify;
 }
 
 /* section */
@@ -132,6 +133,7 @@ section {
 .my_interest p {
     font-weight: 100;
     font-size: 1.3em;
+    text-align: justify;
 }
 
 .interest_list {
